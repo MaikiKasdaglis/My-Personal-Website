@@ -1,3 +1,39 @@
 body {
-    background: blue;
+    background: #d8f3d8;
   }
+header {
+  font-size: 40px;
+  padding-left: 30px
+}
+  img {
+    max-width: 200px;
+    margin-left: 30px;
+    border: 10px solid #6baa6b;
+  }
+  a {
+    color: #6baa6b;
+  }
+.bioHead {
+  text-indent: 30px;
+}
+.bio {
+  width: 900px;
+  padding-left: 30px;
+}
+
+.projectsHead {
+  text-indent: 30px;
+}
+.projects {
+  width: 900px;
+  padding-left: 30px;
+}
+.contactInfoHead {
+  text-indent: 30px;
+}
+.contatInfo {
+  width: 900px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
