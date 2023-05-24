@@ -1,5 +1,7 @@
 body {
     background: #d8f3d8;
+    margin-bottom: 70px;
+    margin-top: 70px;
   }
 header {
   font-size: 40px;
@@ -36,4 +38,46 @@ header {
   padding-left: 30px;
   display: flex;
   flex-direction: column;
+}
+.linksHead {
+  text-indent: 30px;
+}
+.links {
+  width: 900px;
+  padding-left: 30px;
+}
+.courseWorkHead {
+  text-indent: 30px;
+}
+  .courseWork {
+    text-indent: 10px;
+    columns: 3;
+  }
+.otherThingsHead {
+  text-indent: 30px;
+}
+.buttonStuff {
+  background: #6baa6b;
+  max-width: fit-content;
+  margin-left: 20px;
+}
+button {
+  margin-left: 30px;
+  background-color: #a7aa6b;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #008CBA;
+  color: white;}
+#penguin {
+  text-indent: 30px;
+}
+#item1 {
+  text-decoration: line-through;
+}
+#item2 {
+  text-decoration: line-through;
+}
+#item3 {
+  text-decoration: line-through;
 }
